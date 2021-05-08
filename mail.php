@@ -1,8 +1,8 @@
 <?php
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-
-        # FIX: Replace this email with recipient email
+        #Theme by TRUSTED KIGALI DEVELOPERS(TKD)
+        # FIX: Replace this email with recipient email 
         $mail_to = "Your MAIL @domain.com";
         
         # Sender Data
@@ -43,6 +43,7 @@
         # Not a POST request, set a 403 (forbidden) response code.
         http_response_code(403);
         echo "There was a problem with your submission, please try again.";
+        echo "";
     }
 
 ?>
